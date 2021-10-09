@@ -1,0 +1,4 @@
+1. clone repo
+2. git add file
+3. git commit 
+4. git push 
