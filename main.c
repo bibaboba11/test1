@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include "lib.h"
 
 int main() {
-    for(int x = 20; x <= 30; x += 2)
-        printf("%i ", x);
+    int age = 0;
+    scanf("%i", &age);
+    verifyAge(age);
 
     return 0;
 }
